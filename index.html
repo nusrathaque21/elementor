@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementor</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="side-area">
+              <div class="content">
+                <div class="header d-flex justify-content-between">
+                  <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+                  <span>elementor</span>
+                  <span> <i class="fa-solid fa-grip"></i> </span>
+                </div>
+                <div class="inner-header">
+                  <div class="inner-content">
+                    <div class="st-panel">
+                      <ul class="nav nav-underline nav-justified">
+                        <li class="nav-item">
+                          <a
+                            class="nav-link"
+                            aria-current="page"
+                            role="tab"
+                            href="#promi"
+                            data-toggle="tab"
+                          >
+                            <span><i class="fa-solid fa-pencil"></i></span>
+                            <span>Content</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link active"
+                            role="tab"
+                            data-toggle="tab"
+                            href="#sumi"
+                          >
+                            <span
+                              ><i class="fa-solid fa-circle-half-stroke"></i
+                            ></span>
+                            <span>Style</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a
+                            class="nav-link"
+                            data-toggle="tab"
+                            role="tab"
+                            href="#jusi"
+                          >
+                            <span><i class="fa-solid fa-gear"></i></span>
+                            <span>Advance</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="tab-content">
+                      <div class="tab-pane" role="tab-panel" id="promi">
+                        nivan
+                      </div>
+
+                      <div class="tab-pane active" role="tab-panel" id="sumi">
+                        <div class="content p-4">
+                          <div class="type-title">
+                            <span>
+                              <i class="fa-solid fa-caret-down"></i>
+                            </span>
+                            <p>Title</p>
+                          </div>
+                          <div class="typography-panel">
+                            <h3>Font Family</h3>
+                            <div class="mb-3">
+                              <label for="font-family" class="form-label"
+                                >Select font family:</label
+                              >
+                              <select
+                                id="font-family"
+                                class="form-select font-family-option"
+                              >
+                                <option value="Arial, sans-serif">
+                                  Arial, sans-serif
+                                </option>
+                                <option value="Verdana, sans-serif">
+                                  Verdana, sans-serif
+                                </option>
+                                <option value="Times New Roman, serif">
+                                  Times New Roman, serif
+                                </option>
+                                <option value="Impact, fantasy">
+                                  Impact, fantasy
+                                </option>
+                                <option value="Comic Sans MS, cursive">
+                                  Comic Sans MS, cursive
+                                </option>
+                                <option value="Georgia, serif">
+                                  Georgia, serif
+                                </option>
+                                <option value="Helvetica, sans-serif">
+                                  Helvetica, sans-serif
+                                </option>
+                              </select>
+                            </div>
+
+                            <h3>Text Alignment</h3>
+
+                            <div class="mb-3">
+                              <label for="text-alignment" class="form-label"
+                                >Select text alignment:</label
+                              >
+                              <select
+                                id="text-alignment"
+                                class="form-select text-alignment-option"
+                              >
+                                <option value="left">Left</option>
+                                <option value="center">Center</option>
+                                <option value="right">Right</option>
+                              </select>
+                            </div>
+
+                            <h3>Font Size</h3>
+                            <div class="mb-3" id="ranger">
+                              <label for="font-size" class="form-label"
+                                >Enter font size:</label
+                              >
+                              <input
+                                type="range"
+                                min="0"
+                                max="100"
+                                step="1"
+                                value="30"
+                                id="font-size"
+                              />
+                              <span>30</span> px
+                            </div>
+
+                            <h3>Text Color</h3>
+                            <div class="mb-3" id="color">
+                              <label for="text-color" class="form-label"
+                                >Select text color:</label
+                              >
+                              <input
+                                type="color"
+                                id="text-color"
+                                class="form-control form-control-color"
+                                placeholder="Enter color code"
+                              />
+                            </div>
+
+                            <h3>Background Color</h3>
+                            <div class="mb-3" id="bg-color">
+                              <label for="text-color" class="form-label"
+                                >Select background color:</label
+                              >
+                              <input
+                                type="color"
+                                id="back-color"
+                                class="form-control form-control-color"
+                                placeholder="Enter color code"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="tab-pane" role="tab-panel" id="jusi">
+                        sayan
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <footer>
+                <div class="footer-content d-flex justify-content-between">
+                  <span><i class="fa-solid fa-gear"></i></span>
+                  <span><i class="fa-solid fa-layer-group"></i></span>
+                  <span><i class="fa-solid fa-laptop"></i></span>
+                  <span><i class="fa-regular fa-eye"></i></span>
+
+                  <div class="button-area">
+                    <button>
+                      <a href="#">Update</a>
+                    </button>
+                    <i class="fa-solid fa-angle-up"></i>
+                  </div>
+                </div>
+              </footer>
+            </div>
+          </div>
+
+          <div class="col-md-8">
+            <div class="body-inner">
+              <div class="body-start" id="js-h">
+                <div class="container-edit-option">
+                  <span><i class="fa-solid fa-plus"></i></span>
+                  <span><i class="fa-solid fa-grip"></i></span>
+                  <span><i class="fa-solid fa-xmark"></i></span>
+                </div>
+                <h1>I Love JavaScript</h1>
+              </div>
+            </div>
+            <div class="body-outer">
+              <div class="out-contents">
+                <span><i class="fas fa-plus"></i></span>
+                <span><i class="fa-regular fa-folder-closed"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/e25f79a173.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./src/data.js"></script>
+    <script src="./src/functions.js"></script>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
